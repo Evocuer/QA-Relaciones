@@ -48,4 +48,14 @@ public class Perro {
     public void setTamanho(String tamanho) {
         this.tamanho = tamanho;
     }
+
+    @Override
+    public String toString() {
+        return "Perro{" +
+                "nombre='" + nombre + '\'' +
+                ", raza='" + raza + '\'' +
+                ", edad=" + edad +
+                ", tamanho='" + tamanho + '\'' +
+                '}';
+    }
 }
