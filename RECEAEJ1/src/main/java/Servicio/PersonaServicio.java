@@ -8,7 +8,7 @@ public class PersonaServicio {
 
     TestAsker leer;
 
-    public PersonaServicio (TestAsker Leer) {this.leer = leer;}
+    public PersonaServicio (TestAsker leer) {this.leer = leer;}
 
     public Persona crearPersona(Perro p1) {
 

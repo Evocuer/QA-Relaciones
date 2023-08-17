@@ -7,7 +7,7 @@ public class PerroServicio {
 
     TestAsker leer;
 
-    public PerroServicio (TestAsker Leer) {this.leer = leer;}
+    public PerroServicio (TestAsker leer) { this.leer = leer; }
 
     public Perro crearPerro() {
 
